@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.component {
+  width: 300px;
+  max-width: 100%;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.component h3 {
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.component p {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
